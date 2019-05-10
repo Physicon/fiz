@@ -10,8 +10,10 @@
 }
 
 .content{
-    flex:
-     1 0 auto;
+    flex: 1 0 auto;
+
+    height: 100%;
+    min-height: 500px;
 }
 
 
@@ -184,6 +186,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .courses-sci {
@@ -251,7 +254,6 @@ ul{
     height: 80px;
     background-color: grey;
     text-align: center;
-    margin-top: 10%;
 }
 
 .hide{
