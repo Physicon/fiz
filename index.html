@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+
+    <div class="wrapper">
+            <header>
+                    <div class="header-container">
+                        
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/logo.svg" alt="Логотип">
+                            </a>
+
+                            <div class="gamburger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                            </div>
+                                 
+                        </div>
+                        <input type="checkbox" name="" id="menu-checkbox">
+                        <nav role="navigation">
+                            <label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="CLOSE"></label>
+                            <ul class="main-menu_desc">
+                                <li>
+                                    <a href="#" class="header-btn">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="header-btn">Активация</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="header-btn">Вход</a>
+                                </li>
+                            </ul>
+
+
+                            <ul class="main-menu">
+                                    <li>
+                                        <a href="#">Витрина</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">О проекте</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Новости</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Помощь</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Скачать</a>
+                                    </li>
+                                </ul>
+                        </nav>
+                    </div>
+            
+                </header>  
+        <section class="selection">
+                <h1 class="text-center">Витрина</h1>
+                <div class="curses-form">
+                    <form action="" class="selection__form">
+                        <select id="subj" name="subj">
+                                    <option value="">Все предметы</option>
+                                    <option>Алгебра</option>
+                                    <option>Английский язык</option>
+                                    <option>Биология</option>
+                                    <option>География</option>
+                                    <option>Геометрия</option>
+                                    <option>Демо-версия</option>
+                                    <option>Информатика</option>
+                                    <option>История</option>
+                                    <option>Литература</option>
+                                    <option>Математика</option>
+                                    <option>Обществознание</option>
+                                    <option>Окружающий мир</option>
+                                    <option>Робототехника</option>
+                                    <option>Русский язык</option>
+                                    <option>Физика</option>
+                                    <option>Химия</option>
+                        </select>
+                        <select id="genre" name="genre">
+                                    <option value="">Все жанры</option>
+                                        <option>Демо</option>
+                                        <option>Задачник</option>
+                                        <option>Подготовка к ВПР</option>
+                                        <option>Подготовка к ЕГЭ</option>
+                                        <option>Рабочая тетрадь</option>
+                        </select>
+                        <select id="grade" name="grade">
+                                    <option value="">Все классы</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                        </select>
+                        <input class="search" type="text" placeholder="Поиск" id="search" name="search">
+                    </form>
+
+                </div>
+        </section>
+
+
+        <div class="content">
+            <div class="container">
+            </div>
+        </div>
+
+        <footer class="footer">
+            2019
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
